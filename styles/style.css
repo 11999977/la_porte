@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*En-tête*/
+
+header,footer{
+  height: 70px;
+  background-color: skyblue;
+  margin-bottom: 50px;
+}
+
+/*Premier block*/
+
+div{
+  border: 3px dashed;
+  height: 200px;
+  max-width: 981px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 40px;
+
+}
+
+div>p,button{
+  padding: 5px;
+}
+
+div>h1{
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a>p{
+  color: white;
+}
+
+button{
+  background-color: skyblue;
+  border: none;
+  padding: 20px;
+  width: 200px;
+}
+
+button:hover{
+  background-color: red;
+}
+
+/*main*/
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 981px;
+  gap: 30px;
+  margin: 0px auto;
+}
+
+main>article{
+  width: 300px;
+  position: relative;
+  left: 10px;
+}
+
+
+/*section*/
+
+section{
+  display: grid;
+  grid-template-columns: repeat(3, 327px);
+  grid-template-rows: repeat(2, 1fr 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 981px;
+  margin: 0px auto;
+  margin-top: 40px;
+  height: 400px;
+}
+
+section>article{
+  width: 300px;
+  position: relative;
+  left: 20px;
+}
+section>article>h1{
+  font-size: 24px;
+}
+
+
+
